@@ -18,7 +18,7 @@ import jakarta.validation.constraints.Positive;
 @RestController
 @RequestMapping("/api/medicos")
 @Validated
-public class MedicoController extends CommonController<MedicoRequest, MedicoResponse, MedicoService> {
+public class    MedicoController extends CommonController<MedicoRequest, MedicoResponse, MedicoService> {
 
     public MedicoController(MedicoService service) {
         super(service);
