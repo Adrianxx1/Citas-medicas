@@ -1,4 +1,4 @@
-package com.example.eurekaserver;
+package com.adrian.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
